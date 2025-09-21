@@ -2,6 +2,7 @@ local TweenService = game:GetService("TweenService")
 
 local ButtonTween = {}
 
+
 function ButtonTween.Attach(button)
 	local normalSize = button.Size
 	local hoverSize  = UDim2.new(normalSize.X.Scale * 1.1, normalSize.X.Offset,
@@ -10,6 +11,7 @@ function ButtonTween.Attach(button)
 		normalSize.Y.Scale * 0.8, normalSize.Y.Offset)
 	local enlargedSize = UDim2.new(normalSize.X.Scale * 1.2, normalSize.X.Offset,
 		normalSize.Y.Scale * 1.2, normalSize.Y.Offset)
+
 
 	local isHovered = false
 	local isClicked = false
