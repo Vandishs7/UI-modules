@@ -14,8 +14,8 @@ function FovEffect.new(frame, fovChange)
 	self.OrigFov = Camera.FieldOfView
 	self.FovChange = -40 
 	self.IsOpen = false
-	
-	
+
+
 
 	self.Blur = Instance.new("BlurEffect")
 	self.Blur.Size = 0
